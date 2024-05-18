@@ -11,6 +11,9 @@ Before you begin, ensure you have met the following requirements:
 - Eclipse IDE installed
 - ChromeDriver executable in your system's PATH (or the path to your specific WebDriver(eg: Chrome,Firefox etc.,))
 - Google Chrome browser installed
+- Cucumber installed
+- Junit installed
+- All the necessarru dependencies given in the pom.xml file should be installed.
 
 ## Project Structure
 
