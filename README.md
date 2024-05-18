@@ -16,11 +16,32 @@ Before you begin, ensure you have met the following requirements:
 
 The project follows the standard Maven structure and contains the following directories and files:
 
+├── pom.xml
+├── src
+│ ├── main
+│ │ └── java
+│ │ └── com
+│ │ └── storyful
+│ │ └── signup
+│ │ └── helpers
+│ ├── test
+│ │ ├── java
+│ │ │ └── com
+│ │ │ └── storyful
+│ │ │ └── signup
+│ │ │ ├── runners
+│ │ │ └── steps
+│ │ └── resources
+│ │ └── features
+│ │ └── AutoLoginPage.feature
+└── README.md
+
+
 
 ## Running Tests
 
 To run the tests, follow these steps:
 
 1. **Run from Eclipse**:
-    - Right-click on the `TestRunner.java` class located in `src/test/java/com/storyful/signup/runners`
+    - Right-click on the `TestRunner.java` class located in `Cucumber_Test_Project/src/test/java/runner/TestRunner.java`
     - Select `Run As > JUnit Test`
